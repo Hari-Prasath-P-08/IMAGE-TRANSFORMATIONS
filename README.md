@@ -23,12 +23,12 @@ Continue the program by implementing the codes of required topics.
 Thus the program is executed in google colab.
 
 ## Program:
-```python
 Developed By: Hari Prasath. P
 Register Number: 212223230070
 
-i)Image Translation
+### i)Image Translation:
 
+```python
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -53,9 +53,11 @@ plt.axis('off')
 # Show the resulting image
 plt.imshow(translated_image)
 plt.show()
+```
 
-ii) Image Scaling
+### ii) Image Scaling:
 
+```python
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -83,9 +85,11 @@ print("Original Image:")
 show_image(image)
 print("Scaled Image:")
 show_image(scaled_image)
+```
 
-iii)Image shearing
+### iii)Image shearing:
 
+```python
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -116,9 +120,11 @@ print("Original Image:")
 show_image(image)
 print("Sheared Image:")
 show_image(sheared_image)
+```
 
-iv)Image Reflection
+### iv)Image Reflection:
 
+```python
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -152,9 +158,11 @@ print("Reflected Vertically:")
 show_image(reflected_image_vertical)
 print("Reflected Both:")
 show_image(reflected_image_both)
+```
 
-v)Image Rotation
+### v)Image Rotation:
 
+```python
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -187,9 +195,11 @@ print("Original Image:")
 show_image(image)
 print("Rotated Image:")
 show_image(rotated_image)
+```
 
-vi)Image Cropping
+### vi)Image Cropping:
 
+```python
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -219,31 +229,31 @@ print("Original Image:")
 show_image(image)
 print("Cropped Image:")
 show_image(cropped_image)
-
 ```
+
 ## Output:
-### i)Image Translation
+### i)Image Translation:
 
 ![Screenshot 2024-04-28 141339](https://github.com/Hari-Prasath-P-08/IMAGE-TRANSFORMATIONS/assets/139455593/60943b1d-2121-44b5-9c5f-506bd37baae0)
 
-### ii) Image Scaling
+### ii) Image Scaling:
 
 ![Screenshot 2024-04-28 142107](https://github.com/Hari-Prasath-P-08/IMAGE-TRANSFORMATIONS/assets/139455593/fc3e02e8-53d1-4d1f-86d6-1d4fc70edd33)
 
-### iii)Image shearing
+### iii)Image shearing:
 
 ![Screenshot 2024-04-28 143811](https://github.com/Hari-Prasath-P-08/IMAGE-TRANSFORMATIONS/assets/139455593/82517454-e067-49ae-a2ff-71f07d05170d)
 
-### iv)Image Reflection
+### iv)Image Reflection:
 
 ![Screenshot 2024-04-28 144005](https://github.com/Hari-Prasath-P-08/IMAGE-TRANSFORMATIONS/assets/139455593/ab28c03f-6d82-4e12-8b32-25d39598e9e4)
 ![Screenshot 2024-04-28 144016](https://github.com/Hari-Prasath-P-08/IMAGE-TRANSFORMATIONS/assets/139455593/6b4e21cf-12d2-40d3-bb12-32c279257572)
 
-### v)Image Rotation
+### v)Image Rotation:
 
 ![Screenshot 2024-04-28 144153](https://github.com/Hari-Prasath-P-08/IMAGE-TRANSFORMATIONS/assets/139455593/0c82e777-8c68-4bb9-830f-4af795e675a2)
 
-### vi)Image Cropping
+### vi)Image Cropping:
 
 ![Screenshot 2024-04-28 145252](https://github.com/Hari-Prasath-P-08/IMAGE-TRANSFORMATIONS/assets/139455593/8d401067-0a08-40a0-8cd0-7a22ca1ac0eb)
 
